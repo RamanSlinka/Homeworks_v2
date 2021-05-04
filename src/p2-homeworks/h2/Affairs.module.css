@@ -1,0 +1,48 @@
+.affair {
+    padding-left: 30px;
+}
+
+.page{
+    background: rgba(97, 114, 118, 0.69);
+
+}
+
+
+.button {
+    color: #61dafb;
+    background: #7f4b4b;
+    margin-right: 15px;
+    margin-top: 20px;
+    width: 56px;
+    border-radius: 5px;
+    box-shadow: #212122 1px 1px 3px;
+}
+
+.active {
+    color: #25fa02;
+    font-weight: bolder;
+}
+ .button:hover{
+    background: #898787;
+}
+
+.item {
+    display: inline-block;
+    width: 90px;
+    margin-top: 0;
+}
+
+.low {
+    color: green;
+    font-weight: bold;
+}
+
+.middle {
+    color: gold;
+    font-weight: bold;
+}
+
+.high {
+    color: red;
+    font-weight: bolder;
+}
