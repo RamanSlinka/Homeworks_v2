@@ -17,7 +17,7 @@
     "react-scripts": "3.4.1",
     "typescript": "~3.7.2"
   },
-  "homepage": "https://RamanSlinka.github.io/Homeworks",
+  "homepage": "https://RamanSlinka.github.io/Homeworks_v2",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

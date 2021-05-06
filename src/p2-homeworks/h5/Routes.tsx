@@ -4,8 +4,10 @@ import PreJunior from "./pages/PreJunior";
 import Error404 from "./pages/Error404";
 import Junior from "./pages/Junior";
 import JuniorPlus from './pages/JuniorPlus';
+import StartPage from "./pages/StartPage";
 
 export const PATH = {
+    START_PAGE: '/start-page',
     PRE_JUNIOR: '/pre-junior',
     JUNIOR: '/junior',
     JUNIOR_PLUS: '/junior+'
@@ -20,8 +22,9 @@ function Routes() {
 
             {/*в начале мы попадаем на страницу '/' и переходим сразу на страницу PRE_JUNIOR*/}
             {/*exact нужен чтоб указать полное совподение (что после '/' ничего не будет)*/}
-            <Route path={'/'} exact render={() => <Redirect to={PATH.PRE_JUNIOR}/>}/>
+            <Route path={'/'} exact render={() => <Redirect to={PATH.START_PAGE}/>}/>
 
+            <Route path={PATH.START_PAGE} render={() => <StartPage/>}/>
             <Route path={PATH.PRE_JUNIOR} render={() => <PreJunior/>}/>
             <Route path={PATH.JUNIOR} render={() => <Junior/>}/>
             <Route path={PATH.JUNIOR_PLUS} render={() => <JuniorPlus/>}/>
