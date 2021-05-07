@@ -1,9 +1,10 @@
 import React from 'react'
+import s from './../HW5.module.css'
 
 function StartPage () {
     return(
-        <div>
-            Pages
+        <div className={s.bg}>
+
         </div>
     )
 }

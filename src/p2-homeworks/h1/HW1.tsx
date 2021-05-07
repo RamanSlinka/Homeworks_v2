@@ -20,10 +20,7 @@ const messageDataAlternative = {
 function HW1() {
     return (
         <div className={s.page}>
-            <hr/>
-            homeworks 1
-
-            should work (должно работать)
+           homeworks 1
 
             <Message
                 avatar={messageData.avatar}
@@ -32,15 +29,13 @@ function HW1() {
                 time={messageData.time}
             />
 
-            <hr/>
-
             <AlternativeMessage
                 avatar={messageDataAlternative.avatar}
                 name={messageDataAlternative.name}
                 message={messageDataAlternative.message}
                 time={messageDataAlternative.time}
             />
-            <hr/>
+
         </div>
     )
 }

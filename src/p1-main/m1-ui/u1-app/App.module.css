@@ -1,3 +1,17 @@
-.App {
-
+/*
+.AppContentWrapper {
+display: flex;
+    flex-direction: row;
 }
+.AppWrapper {
+    display: grid;
+    grid-template-areas:
+'n c';
+   !* grid-template-rows: 150px 1fr;*!
+    grid-template-columns: 1fr 10fr;
+    grid-gap: 5px;
+}
+
+.con{
+    grid-area: c;
+}*/
