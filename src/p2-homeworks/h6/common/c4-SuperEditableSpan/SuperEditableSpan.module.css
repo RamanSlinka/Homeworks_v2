@@ -1,0 +1,12 @@
+.span{
+    display: inline-block;
+
+    height: 31px;
+    padding-left: 30px;
+    padding-top: 10px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+    color: #00e4ff;
+}
