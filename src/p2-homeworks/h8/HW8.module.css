@@ -1,0 +1,17 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+
+    margin-left: 15px;
+
+
+}
+
+.button{
+    background: #19a9e2;
+
+}
+.button:focus{
+    outline: 2px solid white;
+}

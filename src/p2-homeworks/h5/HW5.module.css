@@ -45,3 +45,10 @@
    transition-duration: 1500ms;
     transform: translate(0);
 }
+
+.bgJunior{
+    padding-left: 10px;
+    color: #faef07;
+    background-image: url(https://www.absolute-intimate.com/wp-content/uploads/2018/01/absolute-intimate.com-slider-background-1.jpg);
+height: 100vh;
+}
