@@ -1,0 +1,54 @@
+.label{
+cursor: pointer;
+}
+
+.radio{
+    appearance: none;
+    height: 25px;
+    width: 25px;
+
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    background: #f535fc;
+}
+
+.radio:hover{
+    border: #210a0f 2px solid;
+}
+
+.radio:checked{
+    background: #10ead8;
+}
+
+.radio:focus{
+    border: 2px solid #494947;
+}
+
+.select{
+    width: 150px;
+    padding: 3px;
+    padding-right: 30px;
+
+    cursor: pointer;
+
+
+    border: 2px solid #210a0f;
+    color: #61dafb;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.option{
+    color: #898787;
+    background: #96dbf8;
+
+}
+.option:checked{
+    background: #2f976b;
+    color: white;
+}
+
+.option:hover{
+    box-shadow: 0 0 100px inset indianred;
+}
